@@ -2,9 +2,26 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Notepad</title>
+    <style type="text/css">
+      body,html {
+        height:100%;
+        margin:0;
+      }
+      #txtEditor {
+        width: 100%;
+        height: 99%;
+        padding: 0;
+        margin: 0;
+        border: 0;
+        font-size: 18px;
+      }
+    </style>
   </head>
   <body>
-    Well hey there!!!
+  <textarea id="txtEditor"></textarea>
   </body>
+  <script type="text/javascript">
+      require('./index.js');
+  </script>
 </html>
